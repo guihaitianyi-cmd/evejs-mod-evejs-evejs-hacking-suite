@@ -1,0 +1,45 @@
+{
+  "author": {
+    "id": "au-muuy8xmc62sr",
+    "keyId": "f163b59ae080",
+    "name": "sleephah"
+  },
+  "category": "玩法",
+  "changelog": "",
+  "conflicts": [
+    "evejs-hacking-suite",
+    "evejs-hacking-minigame",
+    "evejs-hacking-pack-adopt",
+    "evejs-hackable-site-cans",
+    "evejs-site-loot-tables",
+    "evejs-site-rooms"
+  ],
+  "delisted": false,
+  "description": "遗迹 / 数据站点开箱破解小游戏：① 破解小游戏本体——六角棋盘 + 回合制对局（防御节点按难度梯度 8/10/12；击破的防御节点即时降级为通路；点出防御节点会随机封锁周围 4 个通路节点，打掉该防御即解锁；开局位置四角随机；棋盘上只要有已激活的修复节点，你每点一次所有已揭示防御的同步率 +20）。② 遗迹 / 数据容器可破解——破解前不给货、破解成功才灌货；总览里不再出现物化出来的假货柜；布景不再广告「拾取 / 打开货柜」；★破解成功前容器打不开，会提示「请使用破解工具打开」★；破解后恢复正常开箱；蓝图一律按有限流程拷贝建。全程运行期内存补丁，★不修改 server/ 下任何磁盘文件★；逐条 fail-closed（锚点找不到 / 命中多处 ⇒ 该文件整体退回原版）。开关：EVEJS_EHS_HACKING_SUITE=0 整包关闭；EVEJS_SITE_CANS_HACKABLE=0 只关容器分段（注意 EVEJS_HACKING_PACK_ADOPT=0 对本包无效，与来源包一致）。需重启服务端。",
+  "displayName": "遗迹开箱破解小游戏（Data/Relic）",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite/releases/download/v1.0.2/evejs-evejs-hacking-suite-1.0.2.zip"
+    }
+  ],
+  "evejsVersions": [
+    "0.12.9"
+  ],
+  "featured": false,
+  "highlights": [],
+  "history": [],
+  "id": "evejs-evejs-hacking-suite",
+  "publishedAt": "2026-10-05",
+  "readme": [
+    "> 让**遗迹 / 数据站点**的容器必须先玩通**六角棋盘破解小游戏**才能开箱取货。\n> 分类：玩法 · 版本：1.0.2 · 适用 EveJS：0.12.9 · 需要重启：**服务端（game_server）**",
+    "---"
+  ],
+  "repo": "https://github.com/guihaitianyi-cmd/evejs-mod-evejs-evejs-hacking-suite",
+  "requiresRestart": true,
+  "sha256": "115523a4a856eeb6e02cdabda7f9af319be7e17124353d27840eb1c3b223f5a1",
+  "sizeBytes": 40718,
+  "tags": [],
+  "version": "1.0.2"
+}
